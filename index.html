@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-image: url('gym-background.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+header {
+background-color: black;
+color: white;
+padding: 20px;
+}
+
+nav a {
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+display: inline-block;
+}
+
+nav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+h1 {
+text-align: center;
+}
+
+.membership, .products {
+background-color: white;
+padding: 20px;
+margin: 20px;
+}
+
+.membership img, .products img {
+width: 300px;
+float: left;
+margin-right: 20px;
+}
+
+footer {
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+form {
+border: 3px solid #f1f1f1;
+width: 50%;
+margin: auto;
+padding: 20px;
+}
+
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#">Home</a>
+<a href="#">Supplements</a>
+<a href="#">About</a>
+</nav>
+</header>
+
+<h1>Max Gains Gym</h1>
+
+<div class="membership">
+<img src="membership.jpg">
+<h2>Memberships</h2>
+<p>Choose from our monthly or annual memberships with access to all classes and equipment.</p>
+</div>
+
+<div class="products">
+<img src="products.jpg">
+<h2>Supplement Store</h2>
+<p>Shop our full line of protein powders, pre-workout, and more.</p>
+</div>
+
+<footer>
+<p>Copyright Max Gains Gym 2023</p>
+</footer>
+
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br><br>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" style="height:200px"></textarea><br><br>
+
+<input type="submit">
+</form>
+
+</body>
+</html>
